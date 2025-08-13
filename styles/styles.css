@@ -1,0 +1,10 @@
+.btn-custom {
+    background-color: #4c1d95;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+input, select, textarea {
+    font-family: inherit;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VAMS - Vehicle Asset Management Solutions</title>
+
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Optional: Custom CSS -->
+  <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+
+  <!-- JavaScript -->
+  <script defer src="src/main.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- Header -->
+<header class="bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-indigo-600">VAMS</h1>
+
+    <div class="flex-shrink-0 px-8">
+      <img src="assets/images/logo.png" alt="VAMS Logo" class="h-16 mx-auto ml-32" />
+    </div>
+
+    <nav class="space-x-4">
+      <a href="#services" class="text-gray-700 hover:text-indigo-600">Services</a>
+      <a href="#contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+      <a href="#form" class="text-gray-700 hover:text-indigo-600">Apply</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section with Logo -->
+<section class="text-center py-16 px-4">
+  <!-- Logo image -->
+<!--  <img src="assets/images/logo.png" alt="VAMS Logo" class="mx-auto mb-6 w-32 h-auto" />-->
+
+  <h2 class="text-3xl font-bold mb-4">Mobility Made Simple</h2>
+  <p class="max-w-2xl mx-auto mb-6">
+    We manage your vehicles as income-generating assets. Partnered with Bolt, Uber, and Checkers Sixty60 delivery drivers for community mobility expansion.
+  </p>
+  <a href="#form" class="bg-indigo-600 text-white py-2 px-6 rounded-full">Get Started</a>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-16 bg-white px-4">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+    <div class="bg-gray-100 p-6 rounded-xl shadow">
+      <h3 class="text-xl font-semibold mb-2">Vehicle Management</h3>
+      <p>We lease your vehicle to screened drivers and pay you weekly returns.</p>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-xl shadow">
+      <h3 class="text-xl font-semibold mb-2">Driver Onboarding</h3>
+      <p>We recruit, vet, and monitor drivers to maximize safety and income potential.</p>
+    </div>
+    <div class="bg-gray-100 p-6 rounded-xl shadow">
+      <h3 class="text-xl font-semibold mb-2">Delivery Solutions</h3>
+      <p>We partner with retailers to enable last-mile delivery services in townships and suburbs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Application Form -->
+<section id="form" class="py-16 px-4 bg-indigo-50">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-2xl font-bold text-center mb-6">Apply as a Driver or Owner</h2>
+    <form class="bg-white p-6 rounded-lg shadow space-y-4" id="application-form">
+      <input type="text" placeholder="Full Name" class="w-full border p-3 rounded" required />
+      <input type="email" placeholder="Email" class="w-full border p-3 rounded" required />
+      <input type="tel" placeholder="Phone Number" class="w-full border p-3 rounded" required />
+      <select class="w-full border p-3 rounded" required>
+        <option value="">I am a...</option>
+        <option value="owner">Vehicle Owner</option>
+        <option value="driver">Driver</option>
+      </select>
+      <textarea placeholder="Tell us more (location, experience, etc)" class="w-full border p-3 rounded"></textarea>
+      <button type="submit" class="w-full bg-indigo-600 text-white py-3 rounded">Submit Application</button>
+    </form>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 px-4">
+  <div class="text-center">
+    <h2 class="text-xl font-semibold mb-2">Contact Us</h2>
+    <p>Email: <a href="mailto:business@infovams.com" class="text-indigo-600">business@infovams.com</a></p>
+    <p>Phone: 074 265 6461 (Siphephelo)</p>
+    <p>Location: Sandton, Johannesburg, Gauteng</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-100 text-center py-4">
+  <p>&copy; 2025 VAMS. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
